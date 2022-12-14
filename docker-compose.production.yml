@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    image: docker-nextjs-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.production
+    ports:
+      - 3000:3000
+    volumes:
+      - ./styles:/app/styles
+      - ./pages:/app/pages
+      - ./public:/app/public
