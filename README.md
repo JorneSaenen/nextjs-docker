@@ -76,6 +76,8 @@ docker exec -it CONTAINER_ID OR CONTAINER_NAME mysql -u root -p
 
 ### Notes
 
+###### Get Docker Desktop: [Docker Desktop](https://www.docker.com/get-started/)
+
 ###### Don't forget to change the .env file, remove the .example extension
 
 ###### Change passwords, usernames, db names, etc. in the docker-compose.yml file
